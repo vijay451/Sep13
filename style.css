@@ -1,0 +1,37 @@
+small{
+    text-align: left;
+}
+
+
+.container{
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 20px 50px 100px 50px;
+    background-color: #FFEF78;
+}
+.form-control{
+   margin: 25px;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+}
+.form-control label{
+    display: block;
+    text-align: left;
+    
+}
+.form-control small{
+    visibility: hidden;
+}
+.form-control error input{
+    border: 1px solid red;
+}
+.form-control success input{
+    border: 1px solid green;
+}
+.btn{
+    border-top: 20px;
+}
